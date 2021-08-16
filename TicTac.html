@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-Tac-Toe Game</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="TicTac.css">
+        <script src="TicTac.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+      <div>
+          <div class="container" id="container">
+              <div class="heading">
+                  <h1>TIC-TAC-TOE</h1>
+              </div>
+              <div id="turn">player <span id="player">X</span> 's turn
+              <div id="winner"></div>
+            </div>
+        </div>
+
+
+          <div id="main">
+            <div class="div topdiv leftdiv"     id="div1"  onclick="put(this)"></div>
+            <div class="div topdiv"             id="div2"  onclick="put(this)"></div>
+            <div class="div topdiv rightdiv"    id="div3"  onclick="put(this)"></div>
+            <div class="div leftdiv"            id="div4"  onclick="put(this)"></div>
+            <div class="div middiv"             id="div5"  onclick="put(this)"></div>
+            <div class="div rightdiv"           id="div6"  onclick="put(this)"></div>
+            <div class="div leftdiv bottomdiv"  id="div7"  onclick="put(this)"></div>
+            <div class="div bottomdiv"          id="div8"  onclick="put(this)"></div>
+            <div class="div bottomdiv rightdiv" id="div9"  onclick="put(this)"></div>
+        </div>
+
+          <div id="div_button" >
+              <button onclick="reset()" id="resetButton">Reset</button>
+            </div>
+    </div>
+
+
+
+
+    </body>
+</html>

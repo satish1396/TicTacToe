@@ -1,0 +1,104 @@
+
+body {
+    background-color: black;
+  }
+  
+  #main {
+    border: none;
+    display: block;
+    width: 298px;
+    height: 300px; 
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  div h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 35px;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 15px 15px 7px gray;
+    color: aliceblue;
+  }
+  
+  span {
+    font-weight: bolder;
+  }
+  
+  #turn {
+    text-align: center;
+    font-size: 23px;
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+    color: aliceblue; 
+  }
+  
+  .div {
+    border: 1px solid white;
+    height: 89px;
+    width: 88px;
+    float: left;
+    font-size: 70px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  
+  #div_button {
+    text-align: center;
+    margin-top: 45px;
+  }
+  
+  #winner {
+    margin: 12px;
+    color:red;
+  }
+  #resetButton {
+    width: 120px;
+    height: 50px;
+    background-color:rgb(111, 55, 148);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #resetButton:active {
+    width: 115px;
+    height: 45px;
+    background-color: aliceblue;
+    color:black;
+    font-weight: bolder;
+  }
+ 
+  
+  #player {
+    color: blue;
+    font-size: 23px;
+  }
+  
+  .leftdiv {
+
+    clear: left;
+    border-left: none;
+  }
+  
+  .bottomdiv {
+  
+    border-bottom: none;
+  }
+  
+  .rightdiv {
+  
+    border-right: none;
+  }
+  
+  .topdiv {
+ 
+    border-top: none;
+  } 
+  
+  
+ 
